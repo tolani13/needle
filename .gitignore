@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.node_modules.lock
+
+# Build / cache
+dist/
+.output/
+.nitro/
+.tanstack/
+.vercel/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Sandbox / preview internals (not part of the product)
+.grok/
+.project_id
+AGENTS.md
+screenshots/
+artifacts/
+attachments/
+public/__grok/
